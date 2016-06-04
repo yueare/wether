@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:baselineAligned="true" android:background="#ffdadada">
+
+    <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" android:background="#ffffffff" android:weightSum="1"
+            android:alpha="1">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" 管理城市 "
+                android:id="@+id/textView11" android:background="#ffffffff" android:gravity="center_vertical"
+                android:alpha="0.9" android:textSize="18dp" android:layout_gravity="center" android:textColor="#ff000000"
+                />
+        <Button
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="关于"
+                android:id="@+id/buttonabout" android:layout_weight="0" android:background="#ffffffff"
+                android:layout_gravity="right|center_vertical"
+                android:gravity="center" android:textColor="#ff1ad1ff"/>
+        <Button
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonback"
+                android:layout_weight="0" android:text="返回" android:background="#ffffffff"
+                android:layout_gravity="left|center_vertical" android:textColor="#ff1ad1ff"/>
+    </FrameLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="47dp" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" android:gravity="center">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:id="@+id/editText" android:layout_weight="0.99"
+                android:background="@drawable/editsharp" android:hint="输入城市" android:singleLine="true"
+                android:textColor="#ff000000"/><![CDATA[/>
+
+        ]]>
+        <Button android:layout_width="60dp" android:layout_height="37dp" android:id="@+id/button3"
+                android:singleLine="true" android:background="#ff4ad560"
+                android:textColor="#ffffffff" android:text="定位"/>
+        <Button
+                android:layout_width="60dp"
+                android:layout_height="37dp"
+                android:id="@+id/button2" android:singleLine="true" android:background="#ff4ad560"
+                android:layout_marginLeft="2dp" android:textColor="#ffffffff" android:text="添加"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_marginTop="10dp">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="39dp" android:gravity="center_vertical">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView12" android:textSize="15dp" android:layout_marginLeft="20dp"
+                    android:textColor="#ff000000"/>
+        </LinearLayout>
+        <com.FJU.iWeather.SlideCutListView
+                android:id="@+id/slideCutListView"
+                android:layout_width="match_parent"
+                android:layout_height="422dp"
+                android:listSelector="@android:color/transparent"
+                android:divider="@drawable/friendactivity_comment_detail_list2"
+                android:cacheColorHint="@android:color/transparent">
+        </com.FJU.iWeather.SlideCutListView>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:gravity="center">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="左右滑动删除"
+                    android:id="@+id/textView20" android:textStyle="bold" android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

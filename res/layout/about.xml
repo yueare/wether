@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1" android:background="#ff282e3a">
+
+    <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp" android:background="#ff282e3a"
+            android:gravity="bottom|center" android:layout_weight="0.25" android:layout_marginTop="40dp">
+        <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:id="@+id/imageView7" android:background="@drawable/wicon" android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="iWeather"
+                android:id="@+id/textView13" android:layout_gravity="center_horizontal|bottom" android:layout_weight="0"
+                android:textIsSelectable="false" android:singleLine="false"
+                />
+    </FrameLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:gravity="center" android:weightSum="1"
+            android:layout_marginTop="40dp">
+        <ImageView android:layout_width="130dp" android:layout_height="130dp" android:id="@+id/imageView8"
+                   android:background="@drawable/logo1" android:layout_weight="0"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="84dp" android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Develop   F.ju"
+                android:id="@+id/textView14" android:layout_marginBottom="10dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Design    F.ju"
+                android:id="@+id/textView15"/>
+    </LinearLayout>
+</LinearLayout>

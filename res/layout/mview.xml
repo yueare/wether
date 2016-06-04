@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity" >
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <android.support.v4.view.PagerTabStrip
+                android:id="@+id/tabstrip"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:gravity="center" android:background="#ff732a65" android:alpha="1"
+                android:layout_below="@+id/buttonSet" android:layout_alignParentLeft="true"/>
+    </android.support.v4.view.ViewPager>
+    <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/buttonSet"
+            android:background="@drawable/shezhi"
+            android:layout_marginRight="18dp" android:layout_marginBottom="192dp"
+            android:layout_alignParentBottom="true" android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

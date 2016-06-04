@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/FJU/iWeather/BaiduWeather.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/FJU/iWeather/MyActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/FJU/iWeather/RefreshableView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/FJU/iWeather/UIupdater.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/FJU/iWeather/ViewAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/FJU/iWeather/addcity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/FJU/iWeather/iWeatherActivity.java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1" android:background="#ff282e3a">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:layout_weight="0.26" android:background="#ff282e3a">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="iWeather"
+                  android:id="@+id/textView16" android:layout_gravity="center_horizontal|bottom" android:layout_weight="0"
+                  android:textIsSelectable="false" android:singleLine="false"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/imageView9" android:background="@drawable/wicon"
+                   android:layout_gravity="center"/>
+    </FrameLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="95dp" android:gravity="center" android:weightSum="1" android:layout_weight="0.20">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="102dp" android:gravity="bottom|center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="点击齿轮添加城市"
+                android:id="@+id/textView17" android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="14dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Simple Life"
+                android:id="@+id/textView18"/>
+    </LinearLayout>
+</LinearLayout>

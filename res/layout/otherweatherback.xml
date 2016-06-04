@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1" android:background="#ff1ad1ff" android:id="@+id/main">
+    <com.FJU.iWeather.RefreshableView
+            android:id="@+id/refreshable_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" android:layout_gravity="center" android:weightSum="1"
+                    android:layout_weight="0.13" android:gravity="center_horizontal" android:layout_marginTop="0dp">
+                <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/imageView" android:layout_gravity="left|center_vertical"
+                        android:layout_marginLeft="30dp"/>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="89dp" android:layout_gravity="right|center_vertical"
+                        android:layout_marginRight="20dp" android:gravity="center">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="18"
+                            android:id="@+id/textView19" android:layout_gravity="center_vertical"
+                            android:textColor="#ff454545" android:textSize="62dp" android:singleLine="false"
+                            android:typeface="monospace" android:layout_marginRight="-15dp"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView10"
+                               android:background="@drawable/weather35"/>
+                </LinearLayout>
+                <Button
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button" android:background="@drawable/title_bar_refresh"
+                        android:layout_gravity="right|top" android:layout_marginRight="10dp" android:layout_marginTop="-10dp"
+                        android:visibility="invisible"/>
+            </FrameLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="202dp" android:weightSum="1"
+                    android:layout_weight="0.47">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="39dp" android:gravity="center">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="今天：周一 05月25日 (实时：25℃)"
+                            android:id="@+id/textView7" android:textSize="20dp" android:textColor="#ffffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="46dp" android:gravity="center">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="多云"
+                            android:id="@+id/textView8" android:textSize="35dp"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="43dp" android:gravity="center" android:id="@+id/ddf">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="东风3-4级"
+                            android:id="@+id/textView9" android:textSize="25dp"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent" android:weightSum="1" android:id="@+id/dff"
+                        android:gravity="bottom">
+                    <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="18dp"
+                            android:id="@+id/imageView5"
+                            android:background="@drawable/locate_indicator" android:alpha="0.5"
+                            android:layout_marginLeft="20dp" android:layout_marginBottom="16dp"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="嘉善 H: 25  L: 20"
+                            android:id="@+id/textView10" android:gravity="center_vertical" android:layout_marginBottom="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:gravity="bottom|center" android:layout_weight="0.57"
+                    android:background="#ffffffff">
+                <FrameLayout android:orientation="horizontal" android:layout_width="140dp"
+                             android:layout_height="120dp" android:gravity="center"
+                             android:alpha="1" android:layout_marginTop="2dp" android:background="#ffffffff"
+                             android:layout_weight="0.21" android:layout_gravity="center">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="20~21℃" android:id="@+id/textView5" android:textSize="20dp"
+                              android:textColor="#ff444444" android:layout_gravity="center_horizontal|bottom"/>
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView3" android:layout_gravity="center"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="周三" android:id="@+id/textView2" android:textColor="#ff444444"
+                              android:textSize="16dp" android:layout_gravity="center_horizontal|top"/>
+                </FrameLayout>
+                <FrameLayout
+                        android:orientation="horizontal"
+                        android:layout_width="140dp"
+                        android:layout_height="120dp" android:gravity="center"
+                        android:alpha="1" android:background="#ffffffff" android:layout_gravity="left|center_vertical"
+                        android:layout_marginTop="2dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="周二"
+                            android:id="@+id/textView" android:textColor="#ff444444"
+                            android:textSize="16dp" android:layout_gravity="center_horizontal|top"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20~21℃"
+                            android:id="@+id/textView4" android:textSize="20dp" android:textColor="#ff444444"
+                            android:layout_gravity="center_horizontal|bottom"/>
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView2" android:layout_gravity="center"/>
+                </FrameLayout>
+                <FrameLayout android:orientation="horizontal" android:layout_width="140dp"
+                             android:layout_height="120dp" android:gravity="center"
+                             android:alpha="1" android:layout_marginTop="2dp" android:background="#ffffffff"
+                             android:layout_gravity="right|center_vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="20~21℃" android:id="@+id/textView6" android:textSize="20dp"
+                              android:textColor="#ff444444" android:layout_gravity="center_horizontal|bottom"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="周四" android:id="@+id/textView3" android:textColor="#ff444444"
+                              android:textSize="16dp" android:layout_gravity="center_horizontal|top"/>
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView4" android:layout_gravity="center"/>
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </com.FJU.iWeather.RefreshableView>
+
+
+</LinearLayout>
+

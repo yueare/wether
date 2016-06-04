@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/iWeather"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="dom4j-1.6.1" value="project"/>
+		<level name="android-support-v4" value="project"/>
+		<level name="locSDK_4.0" value="project"/>
+	</levels>
+</component>
